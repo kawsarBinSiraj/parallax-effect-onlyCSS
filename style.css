@@ -1,0 +1,71 @@
+
+*,
+*::before,
+*::after,
+:root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    perspective: 1px;
+    transform-style: preserve-3d;
+    height: 100%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.normal {
+    height: 100vh;
+    background-color:#fff;
+}
+
+.llax {
+    position: relative;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    text-stroke:#fff;
+    -webkit-text-stroke:#fff;
+    text-stroke-width:3px;
+    -webkit-text-stroke-width:3px;
+}
+
+.llax::before {
+    content: '';
+    display: block;
+    position: absolute;
+    min-height: 100%;
+    width: 102%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background:url(http://metrotravels.lk/IPG/IPG/img/bg-img/2.jpg) top center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-blend-mode: overlay;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -2;
+    transform: translateZ(-1px) scale(2);
+    -webkit-transform: translateZ(-1px) scale(2);
+    -moz-transform: translateZ(-1px) scale(2);
+    -ms-transform: translateZ(-1px) scale(2);
+    -o-transform: translateZ(-1px) scale(2);
+}
