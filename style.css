@@ -29,6 +29,8 @@ body {
 .normal {
     height: 100vh;
     background-color:#fff;
+    display : grid ;
+    place-items : center;
 }
 
 .llax {
