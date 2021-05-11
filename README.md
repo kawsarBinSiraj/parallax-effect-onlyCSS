@@ -1,2 +1,2 @@
 # Parallax-background-onlyCSS
-Demo Link - https://codepen.io/kawsarIbnSiraj/pen/OBQPMb
+## Demo - https://kawsarbinsiraj.github.io/parallax-effect-onlyCSS/
